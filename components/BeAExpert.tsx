@@ -12,7 +12,7 @@ const BeAExpert = () => {
       </div>
 
       <div className="absolute w-full max-w-[650px] xl:max-w-[777px]   top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-        <div className=" space-y-4">
+        <div className=" space-y-5">
           <h2 className=" text-center text-5xl text-white">
             Be A Expert And <b>Make Money!</b>
           </h2>
