@@ -13,7 +13,7 @@ const Categories = () => {
           <GoArrowRight className=" w-6 h-6 text-brand-main" />
         </button>
       </div>
-      <div className=" py-10 grid gap-[30px]  sm:grid-cols-2 lg:grid-cols-4">
+      <div className=" py-10 grid gap-[30px]  sm:grid-cols-2 xl:grid-cols-4">
         {DEFAULT_CATEGORES_DATA.map((category, i) => (
           <div
             className="  px-6 cursor-pointer space-y-2 rounded-lg border border-[#CECECE] py-6"

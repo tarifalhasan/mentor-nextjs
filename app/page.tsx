@@ -1,3 +1,4 @@
+import BeAExpert from "@/components/BeAExpert";
 import Categories from "@/components/Categories";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -10,7 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Categories />
-
+      <BeAExpert />
       <MostAsksQuestion />
       <Footer />
     </>

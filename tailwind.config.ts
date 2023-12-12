@@ -20,9 +20,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-1": "linear-gradient(103deg, #194504 0%, #46B312 170.83%)",
       },
       colors: {
         brand: {
