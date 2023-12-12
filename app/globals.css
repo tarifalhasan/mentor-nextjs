@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: #fff;
+  color: #000000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.556%;
+}
+
+@layer components {
+  .heading-1 {
+    @apply lg:text-[3.5rem] font-bold leading-[130%];
+  }
+  .heading-2 {
+    @apply text-[2.5rem] md:text-[3rem] leading-[130%]  font-normal;
+  }
+  .heading-3 {
+    @apply text-[1.5rem] md:text-[2rem] leading-[130%]  font-medium;
+  }
+  .body-1 {
+    @apply text-[1.125rem] font-normal;
+  }
+  .btn-primary {
+    @apply py-2 px-4 inline-flex items-center gap-x-2 text-base hover:bg-opacity-70 active:opacity-60 font-medium text-white rounded-[10px]   bg-brand-main;
+  }
+  .btn-outline {
+    @apply bg-none text-base transition-all duration-500 hover:bg-brand-main hover:text-white py-2 px-4 rounded-[10px] border border-brand-main text-content-primary font-medium;
+  }
+}
