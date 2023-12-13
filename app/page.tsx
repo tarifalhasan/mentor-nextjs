@@ -8,6 +8,7 @@ import MostAsksQuestion from "@/components/MostAsksQuestion";
 import PeopleLoveUs from "@/components/PeopleLoveUs";
 import PopularExpertMentors from "@/components/PopularExpertMentors";
 import Testimonial from "@/components/Testimonial";
+import VideoBannder from "@/components/VideoBannder";
 import WhyChooseBookConnect from "@/components/WhyChooseBookConnect";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Features />
       <BeAExpert />
       <Testimonial />
+      <VideoBannder />
       <MostAsksQuestion />
       <Footer />
     </>

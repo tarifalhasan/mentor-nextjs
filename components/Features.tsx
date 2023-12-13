@@ -14,7 +14,7 @@ const Features = () => {
               src={"/images/industry_expert.png"}
               alt="tarifalhasan"
             />
-            <div className=" space-y-4">
+            <div className=" space-y-4 p-4 sm:p-0">
               <h2 className="text-xl sm:text-2xl font-semibold leading-[120%] text-content-primary">
                 Industry Expertise
               </h2>
@@ -28,9 +28,9 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="  basis-[calc(50%-40px)]">
-          <div className="max-w-[510px] mt-[40px] sm:mt-[150px] lg:mt-[400px] ml-auto space-y-[30px]">
-            <div className=" space-y-4">
+        <div className="  basis-[calc(50%-40px)] mt-[120px] sm:mt-[150px] lg:mt-[400px] ">
+          <div className="max-w-[510px] ml-auto space-y-[30px]">
+            <div className=" space-y-4 p-4 sm:p-0">
               <h2 className="text-xl sm:text-2xl font-semibold leading-[120%] text-content-primary">
                 Career Development
               </h2>
@@ -55,7 +55,7 @@ const Features = () => {
         </div>
       </div>
       {/* shape 1 */}
-      <div className=" h-[356px] sm:h-[438px] xl:h-[572px] absolute left-[-2%] lg:left-0 top-[22%] lg:top-[22%] sm:top-[18%] z-10 rounded-br-[60px] w-full lg:w-[50%] border border-l-[0] border-brand-main"></div>
+      <div className=" h-[356px] sm:h-[438px] xl:h-[572px] absolute left-[-2%] lg:left-0 top-[18%] lg:top-[22%] sm:top-[18%] z-10 rounded-br-[60px] w-full lg:w-[50%] border border-l-[0] border-brand-main"></div>
       {/* shape 2 */}
       <div className=" h-[540px] sm:h-[572px] absolute right-[-2%] top-[52%] sm:top-[50%] lg:top-[30%] z-10 rounded-tl-[60px] w-full border-r-0 lg:w-[50%] border border-brand-main"></div>
     </section>

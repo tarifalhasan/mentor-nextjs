@@ -24,6 +24,7 @@ const config: Config = {
         "people-love-us": "url('/images/people_love_us.png')",
         "people-love-us-2": "url('/images/people_love_us_2.png')",
         g5: "linear-gradient(180deg, rgba(25, 69, 4, 0.00) 0%, #194504 100%)",
+        "why-book-bg": "url('/images/why_book.png')",
       },
       colors: {
         brand: {

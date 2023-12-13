@@ -4,13 +4,28 @@ import Image from "next/image";
 const BeAExpert = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-1 min-h-[1091px] md:min-h-[653px] w-full ">
-      <div className="absolute first_image lg:max-w-[180px] xl:max-w-[225px] top-0 left-1/2 transform -translate-x-1/2 translate-y-[-27%] md:left-0 md:transform md:-translate-x-0  md:-translate-y-1/2 md:top-1/2 md:rotate-0 rotate-90">
+      <div className="absolute lg:block hidden first_image lg:max-w-[180px] xl:max-w-[225px] top-0 left-1/2 transform -translate-x-1/2 translate-y-[-27%] md:left-0 md:transform md:-translate-x-0  md:-translate-y-1/2 md:top-1/2 md:rotate-0 rotate-90">
         <Image src={image1} alt="" className="w-full" />
       </div>
-      <div className="absolute secont_image lg:max-w-[180px] xl:max-w-[225px] top-1/2 right-1/2 md:right-0  transform translate-y-[44%] md:-translate-y-1/2 rotate-90 md:rotate-0    translate-x-1/2 md:-translate-x-0">
+      <div className="absolute secont_image lg:block hidden lg:max-w-[180px] xl:max-w-[225px] top-1/2 right-1/2 md:right-0  transform translate-y-[44%] md:-translate-y-1/2 rotate-90 md:rotate-0    translate-x-1/2 md:-translate-x-0">
         <Image src={image2} alt="" className=" w-full" />
       </div>
-
+      <Image
+        src={"/images/77.png"}
+        alt=""
+        width={625}
+        height={625}
+        quality={80}
+        className=" absolute sm:hidden bottom-0 object-contain"
+      />
+      <Image
+        src={"/images/78.png"}
+        alt=""
+        width={625}
+        height={625}
+        quality={80}
+        className=" absolute sm:hidden top-0 object-contain"
+      />
       <div className="absolute w-full max-w-[650px] xl:max-w-[777px]   top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
         <div className=" space-y-5">
           <h2 className=" text-center text-5xl text-white">
