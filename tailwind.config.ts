@@ -21,6 +21,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-1": "linear-gradient(103deg, #194504 0%, #46B312 170.83%)",
+        "people-love-us": "url('/images/people_love_us.png')",
+        "people-love-us-2": "url('/images/people_love_us_2.png')",
       },
       colors: {
         brand: {
@@ -37,6 +39,7 @@ const config: Config = {
           tertiary: "#434343",
         },
         border: "rgba(0, 0, 0, 0.10)",
+        background_content: "rgba(255, 255, 255, 0.60)",
       },
       fontSize: {
         "heading-2": [
