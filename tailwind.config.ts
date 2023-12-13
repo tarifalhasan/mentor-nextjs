@@ -23,6 +23,7 @@ const config: Config = {
         "gradient-1": "linear-gradient(103deg, #194504 0%, #46B312 170.83%)",
         "people-love-us": "url('/images/people_love_us.png')",
         "people-love-us-2": "url('/images/people_love_us_2.png')",
+        g5: "linear-gradient(180deg, rgba(25, 69, 4, 0.00) 0%, #194504 100%)",
       },
       colors: {
         brand: {

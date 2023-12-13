@@ -37,7 +37,7 @@ const PeopleLoveUs = () => {
           className=" bg-people-love-us-2 bg-no-repeat bg-cover bg-center w-full h-full min-h-[291px]  top-0  grid place-items-center  "
         >
           <h3 className=" text-3xl text-center  lg:text-6xl font-medium   text-white">
-            People Loves Us
+            Best Mentoring Platform
           </h3>
         </div>
       </div>
